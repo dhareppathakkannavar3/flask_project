@@ -5,9 +5,9 @@ on:
     branches: [ main ]
 
 jobs:
-  hello:
+  Work1:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Hello Message
+      - name: Hello Message
         run: echo "Hello from GitHub Actions!"
